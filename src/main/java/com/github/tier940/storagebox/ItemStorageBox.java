@@ -85,7 +85,9 @@ public class ItemStorageBox extends Item implements IGuiHolder<PlayerInventoryGu
             StorageBoxNBT.setAutoCollectEnabled(box, newState);
             if (!world.isRemote) {
                 player.sendStatusMessage(
-                        new TextComponentTranslation(newState ? "message.storagebox.storagebox.auto_on" : "message.storagebox.storagebox.auto_off"), true);
+                        new TextComponentTranslation(newState ? "message.storagebox.storagebox.auto_on" :
+                                "message.storagebox.storagebox.auto_off"),
+                        true);
             }
             return new ActionResult<>(EnumActionResult.SUCCESS, box);
         }
@@ -191,9 +193,12 @@ public class ItemStorageBox extends Item implements IGuiHolder<PlayerInventoryGu
                 auto ? "tooltip.storagebox.storagebox.auto_on" : "tooltip.storagebox.storagebox.auto_off"));
         if (GuiScreen.isShiftKeyDown()) {
             tooltip.add(TextFormatting.DARK_GRAY + I18n.format("tooltip.storagebox.storagebox.usage.right_click"));
-            tooltip.add(TextFormatting.DARK_GRAY + I18n.format("tooltip.storagebox.storagebox.usage.sneak_right_click"));
-            tooltip.add(TextFormatting.DARK_GRAY + I18n.format("tooltip.storagebox.storagebox.usage.right_click_inventory"));
-            tooltip.add(TextFormatting.DARK_GRAY + I18n.format("tooltip.storagebox.storagebox.usage.right_click_block"));
+            tooltip.add(
+                    TextFormatting.DARK_GRAY + I18n.format("tooltip.storagebox.storagebox.usage.sneak_right_click"));
+            tooltip.add(TextFormatting.DARK_GRAY +
+                    I18n.format("tooltip.storagebox.storagebox.usage.right_click_inventory"));
+            tooltip.add(
+                    TextFormatting.DARK_GRAY + I18n.format("tooltip.storagebox.storagebox.usage.right_click_block"));
             tooltip.add(TextFormatting.DARK_GRAY + I18n.format("tooltip.storagebox.storagebox.usage.sneak_drop"));
         } else {
             tooltip.add(TextFormatting.DARK_GRAY + I18n.format("tooltip.storagebox.storagebox.shift_hint"));

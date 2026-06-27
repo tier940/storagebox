@@ -16,8 +16,8 @@ import com.github.tier940.storagebox.Tags;
 @Mod.EventBusSubscriber(value = Side.CLIENT, modid = Tags.MODID)
 public class StorageBoxClientEvents {
 
-    private static final ModelResourceLocation BOX_MRL =
-            new ModelResourceLocation(new ResourceLocation(Tags.MODID, "storagebox"), "inventory");
+    private static final ModelResourceLocation BOX_MRL = new ModelResourceLocation(
+            new ResourceLocation(Tags.MODID, "storagebox"), "inventory");
 
     @SubscribeEvent
     public static void onModelRegistry(ModelRegistryEvent event) {

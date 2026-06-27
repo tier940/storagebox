@@ -8,9 +8,14 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TModule {
+
     String moduleID();
+
     String containerID();
+
     String name();
+
     boolean coreModule() default false;
+
     String description() default "";
 }

@@ -8,8 +8,11 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import com.github.tier940.storagebox.core.StorageBoxCoreModule;
 
-@Mod(modid = Tags.MODID, name = Tags.MODNAME, version = Tags.VERSION, useMetadata = true,
-        acceptedMinecraftVersions = "[1.12,1.13)")
+@Mod(modid = Tags.MODID,
+     name = Tags.MODNAME,
+     version = Tags.VERSION,
+     useMetadata = true,
+     acceptedMinecraftVersions = "[1.12,1.13)")
 @Mod.EventBusSubscriber(modid = Tags.MODID)
 public class StorageBoxMod {
 
