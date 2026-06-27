@@ -5,7 +5,7 @@ A portable, single-slot storage item that holds large quantities of one item typ
 ## Features
 
 - **Storage**
-  - Holds up to 65,536 items of a single type per box
+  - stores a single item type in configurable quantities (default capacity defined in storagebox.cfg)
   - Item count and LC (Large Chest equivalent) displayed in the GUI and tooltip
 - **Right-click (air)** — Opens the GUI
   - IN slot: insert items into the box
