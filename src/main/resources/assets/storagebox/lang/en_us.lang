@@ -1,0 +1,25 @@
+item.storagebox.storagebox.name=Storage Box
+
+# Tooltip
+tooltip.storagebox.storagebox.empty=Empty
+tooltip.storagebox.storagebox.auto_on=Auto-collect: ON
+tooltip.storagebox.storagebox.auto_off=Auto-collect: OFF
+
+# Status message (action bar)
+message.storagebox.storagebox.auto_on=Auto-collect: ON
+message.storagebox.storagebox.auto_off=Auto-collect: OFF
+
+# Usage (shown on Shift)
+tooltip.storagebox.storagebox.shift_hint=Hold Shift for usage
+tooltip.storagebox.storagebox.usage.right_click=Right-click: Open GUI
+tooltip.storagebox.storagebox.usage.sneak_right_click=Sneak+Right-click: Toggle auto-collect
+tooltip.storagebox.storagebox.usage.right_click_inventory=Right-click inventory block: Dump contents
+tooltip.storagebox.storagebox.usage.right_click_block=Right-click ground(block item): Place one
+tooltip.storagebox.storagebox.usage.sneak_drop=Sneak+Drop: Eject one stack
+
+# GUI
+gui.storagebox.storagebox.in=IN
+gui.storagebox.storagebox.out=OUT
+gui.storagebox.storagebox.template_empty=Empty
+gui.storagebox.storagebox.items=%,d items
+gui.storagebox.storagebox.lc=%d LC

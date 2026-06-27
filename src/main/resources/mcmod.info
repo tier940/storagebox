@@ -1,0 +1,12 @@
+[{
+    "modid": "${modid}",
+    "name": "${modname}",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "description": "Storage-in-an-item: hold many stacks of one item template in a single slot",
+    "authorList": ["tier940"],
+    "credits": "",
+    "url": "",
+    "updateJSON": "",
+    "logoFile": ""
+}]

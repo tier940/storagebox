@@ -1,0 +1,25 @@
+item.storagebox.storagebox.name=ストレージボックス
+
+# Tooltip
+tooltip.storagebox.storagebox.empty=空
+tooltip.storagebox.storagebox.auto_on=自動回収: ON
+tooltip.storagebox.storagebox.auto_off=自動回収: OFF
+
+# Status message (action bar)
+message.storagebox.storagebox.auto_on=自動回収: ON
+message.storagebox.storagebox.auto_off=自動回収: OFF
+
+# Usage (shown on Shift)
+tooltip.storagebox.storagebox.shift_hint=Shiftで使い方を表示
+tooltip.storagebox.storagebox.usage.right_click=右クリック: GUI を開く
+tooltip.storagebox.storagebox.usage.sneak_right_click=スニーク+右クリック: 自動回収の切替
+tooltip.storagebox.storagebox.usage.right_click_inventory=右クリック(インベントリ): 中身を流し込む
+tooltip.storagebox.storagebox.usage.right_click_block=右クリック(地面): ブロックを1つ設置
+tooltip.storagebox.storagebox.usage.sneak_drop=スニーク+Q: 1スタック排出
+
+# GUI
+gui.storagebox.storagebox.in=IN
+gui.storagebox.storagebox.out=OUT
+gui.storagebox.storagebox.template_empty=空
+gui.storagebox.storagebox.items=%,d 個
+gui.storagebox.storagebox.lc=%d LC
