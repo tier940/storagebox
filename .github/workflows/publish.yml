@@ -81,8 +81,8 @@ jobs:
 #          modrinth-token: "${{ secrets.MODRINTH_API_KEY }}"
 #          modrinth-dependencies: |
 #            G1ckZuWK(required)
-#          curseforge-id: ${{ env.CURSEFORGE_PROJECT_ID }}
-#          curseforge-token: "${{ secrets.CURSEFORGE_API_KEY }}"
+          curseforge-id: ${{ env.CURSEFORGE_PROJECT_ID }}
+          curseforge-token: "${{ secrets.CURSEFORGE_API_KEY }}"
 #          curseforge-dependencies: |
 #            mixin-booter(required)
           files: |
