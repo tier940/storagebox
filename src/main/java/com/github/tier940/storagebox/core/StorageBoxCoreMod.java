@@ -1,16 +1,14 @@
 package com.github.tier940.storagebox.core;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Map;
 
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 
-import zone.rong.mixinbooter.ILateMixinLoader;
+import org.jetbrains.annotations.Nullable;
 
 @IFMLLoadingPlugin.Name("StorageBoxCore")
 @IFMLLoadingPlugin.MCVersion("1.12.2")
-public class StorageBoxCoreMod implements IFMLLoadingPlugin, ILateMixinLoader {
+public class StorageBoxCoreMod implements IFMLLoadingPlugin {
 
     @Override
     public String[] getASMTransformerClass() {
@@ -22,6 +20,7 @@ public class StorageBoxCoreMod implements IFMLLoadingPlugin, ILateMixinLoader {
         return null;
     }
 
+    @Nullable
     @Override
     public String getSetupClass() {
         return null;
@@ -33,10 +32,5 @@ public class StorageBoxCoreMod implements IFMLLoadingPlugin, ILateMixinLoader {
     @Override
     public String getAccessTransformerClass() {
         return null;
-    }
-
-    @Override
-    public List<String> getMixinConfigs() {
-        return Arrays.asList("mixins.storagebox.json");
     }
 }

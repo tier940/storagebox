@@ -1,4 +1,4 @@
-package com.github.tier940.storagebox;
+package com.github.tier940.storagebox.core;
 
 import javax.annotation.Nonnull;
 

@@ -13,7 +13,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.client.model.BakedModelWrapper;
 
 import com.github.tier940.storagebox.StorageBoxMod;
-import com.github.tier940.storagebox.StorageBoxNBT;
+import com.github.tier940.storagebox.core.StorageBoxNBT;
 
 public class StorageBoxBakedModel extends BakedModelWrapper<IBakedModel> {
 

@@ -1,4 +1,4 @@
-package com.github.tier940.storagebox;
+package com.github.tier940.storagebox.core;
 
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
@@ -7,6 +7,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.player.EntityItemPickupEvent;
 import net.minecraftforge.fml.common.eventhandler.Event.Result;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import com.github.tier940.storagebox.common.StorageBoxConfigHolder;
 
 /**
  * Routes picked-up items into any matching StorageBox in the player's inventory before they hit

@@ -23,8 +23,8 @@ env:
   NAME: "StorageBox"
 
   # Curseforge and Modrinth project IDs
-  CURSEFORGE_PROJECT_ID: "1582641"
-  #MODRINTH_PROJECT_ID: "ipueNiWG"
+  CURSEFORGE_PROJECT_ID: "1590111"
+  #MODRINTH_PROJECT_ID: ""
 
 concurrency:
   group: publish-${{ github.ref }}

@@ -13,8 +13,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 
 import com.github.tier940.storagebox.StorageBoxMod;
-import com.github.tier940.storagebox.StorageBoxNBT;
 import com.github.tier940.storagebox.Tags;
+import com.github.tier940.storagebox.core.StorageBoxNBT;
 
 @Mod.EventBusSubscriber(value = Side.CLIENT, modid = Tags.MODID)
 public class StorageBoxItemOverlayRenderer {

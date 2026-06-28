@@ -1,0 +1,12 @@
+{
+  "package": "com.github.tier940.storagebox.mixins.modularui",
+  "refmap": "mixins.storagebox.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ModularContainerMixin"
+  ],
+  "server": [],
+  "client": []
+}

@@ -1,6 +1,8 @@
-package com.github.tier940.storagebox;
+package com.github.tier940.storagebox.common;
 
 import net.minecraftforge.common.config.Config;
+
+import com.github.tier940.storagebox.Tags;
 
 @Config.LangKey(Tags.MODID + ".config.storagebox")
 @Config(modid = Tags.MODID,

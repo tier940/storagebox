@@ -1,4 +1,4 @@
-package com.github.tier940.storagebox;
+package com.github.tier940.storagebox.core;
 
 import java.util.List;
 
@@ -38,6 +38,8 @@ import com.cleanroommc.modularui.widgets.TextWidget;
 import com.cleanroommc.modularui.widgets.slot.ItemSlot;
 import com.cleanroommc.modularui.widgets.slot.ModularSlot;
 import com.cleanroommc.modularui.widgets.slot.SlotGroup;
+import com.github.tier940.storagebox.Tags;
+import com.github.tier940.storagebox.common.StorageBoxConfigHolder;
 import com.github.tier940.storagebox.slot.SingleSlotInputView;
 import com.github.tier940.storagebox.slot.SingleSlotOutputView;
 import com.github.tier940.storagebox.slot.SingleStackModularSlot;
