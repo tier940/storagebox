@@ -83,8 +83,9 @@ jobs:
 #            G1ckZuWK(required)
           curseforge-id: ${{ env.CURSEFORGE_PROJECT_ID }}
           curseforge-token: "${{ secrets.CURSEFORGE_API_KEY }}"
-#          curseforge-dependencies: |
-#            mixin-booter(required)
+          curseforge-dependencies: |
+            mixin-booter(required)
+            modularui(required)
           files: |
             build/libs/!(*-@(dev|sources|javadoc)).jar
             build/libs/*-@(sources).jar
