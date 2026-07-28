@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
+## [1.0.2]
+
+### Fixed
+
+- Fixed the LC count in the GUI being cut off when it reaches 3 digits (100 LC or more)
+
+* * *
+
 ## [1.0.1]
 
 ### Changed

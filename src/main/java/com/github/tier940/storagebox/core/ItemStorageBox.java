@@ -236,7 +236,7 @@ public class ItemStorageBox extends Item implements IGuiHolder<PlayerInventoryGu
         // Two info lines to the right of the icon: template name and item count.
         panel.child(new TextWidget<>(IKey.dynamic(() -> renderTemplateName(box))).pos(31, 9).size(140, 10));
         panel.child(new TextWidget<>(IKey.dynamic(() -> renderItemCount(box))).pos(31, 19).size(140, 10));
-        panel.child(new TextWidget<>(IKey.dynamic(() -> renderLcCount(box))).pos(31, 29).size(30, 10));
+        panel.child(new TextWidget<>(IKey.dynamic(() -> renderLcCount(box))).pos(31, 29).size(140, 10));
 
         // IN slot — insert-only, always shows empty.
         ModularSlot inSlot = new SingleStackModularSlot(new SingleSlotInputView(handler), 0) {
