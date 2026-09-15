@@ -189,7 +189,8 @@ public class ItemStorageBox extends Item implements IGuiHolder<PlayerInventoryGu
             tooltip.add(TextFormatting.WHITE + template.getDisplayName());
             tooltip.add(TextFormatting.YELLOW.toString() + count + TextFormatting.GRAY + " / " +
                     StorageBoxConfigHolder.capacity);
-            tooltip.add(TextFormatting.YELLOW + I18n.format("tooltip.storagebox.storagebox.lc", count / LcUnit.LC_SIZE));
+            tooltip.add(
+                    TextFormatting.YELLOW + I18n.format("tooltip.storagebox.storagebox.lc", count / LcUnit.LC_SIZE));
         }
         boolean auto = StorageBoxNBT.isAutoCollectEnabled(stack);
         tooltip.add((auto ? TextFormatting.GREEN : TextFormatting.RED) + I18n.format(

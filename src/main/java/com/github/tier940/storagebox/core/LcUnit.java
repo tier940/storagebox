@@ -5,6 +5,5 @@ public final class LcUnit {
 
     public static final long LC_SIZE = 3456L;
 
-    private LcUnit() {
-    }
+    private LcUnit() {}
 }
