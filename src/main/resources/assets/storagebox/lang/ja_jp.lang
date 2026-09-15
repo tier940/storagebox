@@ -2,6 +2,7 @@ item.storagebox.storagebox.name=ストレージボックス
 
 # Tooltip
 tooltip.storagebox.storagebox.empty=空
+tooltip.storagebox.storagebox.lc=%d LC
 tooltip.storagebox.storagebox.auto_on=自動回収: ON
 tooltip.storagebox.storagebox.auto_off=自動回収: OFF
 

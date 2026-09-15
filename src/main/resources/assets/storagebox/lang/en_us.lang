@@ -2,6 +2,7 @@ item.storagebox.storagebox.name=Storage Box
 
 # Tooltip
 tooltip.storagebox.storagebox.empty=Empty
+tooltip.storagebox.storagebox.lc=%d LC
 tooltip.storagebox.storagebox.auto_on=Auto-collect: ON
 tooltip.storagebox.storagebox.auto_off=Auto-collect: OFF
 
